@@ -53,7 +53,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03E177569C60FB5BB3C0FFA520374D91 /* Pods-App_NotificationService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-App_NotificationService-Info.plist"; sourceTree = "<group>"; };
 		06DECAC7D7B13253E271B9CA18293EBC /* ffi_cfi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_cfi.h; path = darwin_common/include/ffi_cfi.h; sourceTree = "<group>"; };
 		079D25BB9572420B3542FD8563FA2E8D /* libffi-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "libffi-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		0AD6DBBF3D0D35CDDDE1768DD8ABFD97 /* sysv_i386.S */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.asm; name = sysv_i386.S; path = darwin_ios/src/x86/sysv_i386.S; sourceTree = "<group>"; };
@@ -63,70 +62,45 @@
 		15C24681E7B823DECC20686EAAE23123 /* internal64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = internal64.h; path = darwin_ios/src/x86/internal64.h; sourceTree = "<group>"; };
 		1C3D296BE7BAFC49DA95A93F8213E078 /* libffi_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libffi_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F241C87A9F807A5883F2D93AFDE1259 /* ffi64_x86_64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ffi64_x86_64.c; path = darwin_ios/src/x86/ffi64_x86_64.c; sourceTree = "<group>"; };
-		2834C06B537AD785ACB48118A412726E /* Pods-App29CM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-App29CM-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2B97382D01976FD5FBF6DA4CB4DD4EF4 /* Pods-App29CMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-App29CMTests.release.xcconfig"; sourceTree = "<group>"; };
-		316B1D0CFA783C05B2D38A49B3DD7AA8 /* Pods-App29CMTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-App29CMTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3469A8BF103517611A7F76F668A239FF /* closures.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = closures.c; path = darwin_common/src/closures.c; sourceTree = "<group>"; };
 		3532E90ED0AE45F172F0E7710CFCB7FB /* java_raw_api.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = java_raw_api.c; path = darwin_common/src/java_raw_api.c; sourceTree = "<group>"; };
-		35E7A6CB6670DE0F285589CB5A5B54FC /* Pods-App_NotificationService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-App_NotificationService.modulemap"; sourceTree = "<group>"; };
 		373F09915A20BBAC935CE0537C74AA98 /* win64_x86_64.S */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.asm; name = win64_x86_64.S; path = darwin_ios/src/x86/win64_x86_64.S; sourceTree = "<group>"; };
-		374D90E834D40D58A4ABCE86A790F6D1 /* Pods-App29CMTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-App29CMTests-umbrella.h"; sourceTree = "<group>"; };
 		40864D1779EF95EB997E143C55EA4EBD /* unix64_x86_64.S */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.asm; name = unix64_x86_64.S; path = darwin_ios/src/x86/unix64_x86_64.S; sourceTree = "<group>"; };
 		46AC8D86F0191A15AB6D47ABAD8C4AFD /* fficonfig_armv7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fficonfig_armv7.h; path = darwin_ios/include/fficonfig_armv7.h; sourceTree = "<group>"; };
-		4B228AE0EDF5D4F72E74FDAE8B3FC6A0 /* Pods-App29CM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-App29CM-Info.plist"; sourceTree = "<group>"; };
 		574D42FE35A8BC33F6DEFD05BE63E666 /* ffi_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_arm64.h; path = darwin_ios/include/ffi_arm64.h; sourceTree = "<group>"; };
 		59668FEA23979EBACF88ED0E2F844FC8 /* prep_cif.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = prep_cif.c; path = darwin_common/src/prep_cif.c; sourceTree = "<group>"; };
-		5B14E181E5122B9DA1CE59EDF1209F16 /* Pods-App29CM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-App29CM.release.xcconfig"; sourceTree = "<group>"; };
-		609BEADE37A8E4927CDF8BBCEF2ED4BA /* Pods-App29CMTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-App29CMTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		627CF97F867D3AA7DC46AB0C6AFF4B00 /* libffi-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "libffi-iOS-Info.plist"; sourceTree = "<group>"; };
 		6377687526D1FDDFB99C8794760D57B3 /* internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = internal.h; path = darwin_ios/src/arm/internal.h; sourceTree = "<group>"; };
 		64E0D06E1C2A30E554EF7CF1EDD27DB8 /* fficonfig_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fficonfig_arm64.h; path = darwin_ios/include/fficonfig_arm64.h; sourceTree = "<group>"; };
-		669580B6FF0CA0B873DC9DEB4CDE18E3 /* Pods-App29CM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-App29CM-acknowledgements.plist"; sourceTree = "<group>"; };
 		6896AC9B9F8461D7BFBAD5CA6CEC8ADD /* sysv_arm64.S */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.asm; name = sysv_arm64.S; path = darwin_ios/src/aarch64/sysv_arm64.S; sourceTree = "<group>"; };
 		6BB3FA9B6FC4D458C51C3F1582DEFEB4 /* ffitarget_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_arm64.h; path = darwin_ios/include/ffitarget_arm64.h; sourceTree = "<group>"; };
 		6BFC378D876141E1ACF3B9ABDB7F8234 /* ffi_arm64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ffi_arm64.c; path = darwin_ios/src/aarch64/ffi_arm64.c; sourceTree = "<group>"; };
 		6D626B57C1255EE2DCF9E5E7EEF331FF /* ffi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi.h; path = darwin_common/include/ffi.h; sourceTree = "<group>"; };
 		6E691E23FC6AC63C39F97AC9557A2A31 /* ffitarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget.h; path = darwin_common/include/ffitarget.h; sourceTree = "<group>"; };
-		7140B503A00C8C074B7F239005D6B9B8 /* Pods-App_NotificationService-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-App_NotificationService-acknowledgements.markdown"; sourceTree = "<group>"; };
 		72308109FA0C6EA1E1DAC4FD5BFB57CA /* fficonfig_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fficonfig_x86_64.h; path = darwin_ios/include/fficonfig_x86_64.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7AA96466193F21E3B61F49837B7AF664 /* Pods-App29CM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-App29CM.debug.xcconfig"; sourceTree = "<group>"; };
-		7F27404B26319A37B8F32F8D3ABDDA72 /* Pods-App_NotificationService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-App_NotificationService-dummy.m"; sourceTree = "<group>"; };
 		827DE9B8D4BE245C6676EF45D722CC1D /* asmnames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asmnames.h; path = darwin_ios/src/x86/asmnames.h; sourceTree = "<group>"; };
 		85F6DF5311D0D2A91E544CB4E9E84971 /* libffi-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "libffi-iOS.modulemap"; sourceTree = "<group>"; };
 		91BCEBCD04A570DB0F22938CDDF98BDA /* ffi_i386.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ffi_i386.c; path = darwin_ios/src/x86/ffi_i386.c; sourceTree = "<group>"; };
-		92C8D7F63FD3581B6B640BFFD0E3106F /* Pods-App_NotificationService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-App_NotificationService-umbrella.h"; sourceTree = "<group>"; };
-		936298DA266F277ED564CF27D064F99A /* Pods-App_NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-App_NotificationService.release.xcconfig"; sourceTree = "<group>"; };
 		943740849018D71F70024CD1EA52DE1B /* internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = internal.h; path = darwin_ios/src/x86/internal.h; sourceTree = "<group>"; };
 		94CB8809EBFC75439379130957ACB8A1 /* ffi_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_common.h; path = darwin_common/include/ffi_common.h; sourceTree = "<group>"; };
-		94FE8AE2BBF3521FE9EC1E7B06F0D0D2 /* Pods-App29CM-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-App29CM-frameworks.sh"; sourceTree = "<group>"; };
 		99B301781FF0A6EC7D4490BFCA3EB359 /* sysv_armv7.S */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.asm; name = sysv_armv7.S; path = darwin_ios/src/arm/sysv_armv7.S; sourceTree = "<group>"; };
 		9A15434DBE2A88241E4905269279DB2A /* internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = internal.h; path = darwin_ios/src/aarch64/internal.h; sourceTree = "<group>"; };
-		9A3CA1B3E0448E19718E3A09B071DF74 /* Pods-App29CM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-App29CM-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A198B49D10BA10D330CE0A740A039915 /* dlmalloc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = dlmalloc.c; path = darwin_common/src/dlmalloc.c; sourceTree = "<group>"; };
-		A1AE7F10CD2227E81EB7E2A3ABA238B2 /* Pods-App29CMTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-App29CMTests.modulemap"; sourceTree = "<group>"; };
 		A5D11DBF1CFA94FFFA3A6B74CFC39FBB /* Empty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Empty.swift; path = darwin_ios/Empty.swift; sourceTree = "<group>"; };
-		A8381540D54285DADDDDC8DCD451C50A /* Pods-App_NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-App_NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
 		B0896A676C6A7811B23F264F53F8508F /* types.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = types.c; path = darwin_common/src/types.c; sourceTree = "<group>"; };
 		B563E700BDF78D77C2781686DFBAD062 /* ffi_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_x86_64.h; path = darwin_ios/include/ffi_x86_64.h; sourceTree = "<group>"; };
 		B8CDAB2C67B44E8B35327DBFAF46F13B /* fficonfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fficonfig.h; path = darwin_common/include/fficonfig.h; sourceTree = "<group>"; };
-		BAA67CF66E3BAB51F8D716BFC8636A17 /* Pods-App29CM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-App29CM.modulemap"; sourceTree = "<group>"; };
-		BAF4D37111EA0C79EBBD74CF24214114 /* Pods-App29CMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-App29CMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BCEC93DE1D3F121F96226074F14E7C68 /* ffi_armv7.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ffi_armv7.c; path = darwin_ios/src/arm/ffi_armv7.c; sourceTree = "<group>"; };
-		C197CB1F3A758B8EED7D268A581AA571 /* Pods-App29CM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-App29CM-dummy.m"; sourceTree = "<group>"; };
-		C3B4A5A9B22A1AD3517931584C2D26E2 /* Pods-App29CMTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-App29CMTests-dummy.m"; sourceTree = "<group>"; };
 		C69B1A4CC4BB9EDDA07DFB12C9873F9E /* ffitarget_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_i386.h; path = darwin_ios/include/ffitarget_i386.h; sourceTree = "<group>"; };
 		C820BC56DB5F38A022920E0F6D924510 /* ffitarget_armv7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_armv7.h; path = darwin_ios/include/ffitarget_armv7.h; sourceTree = "<group>"; };
 		CBB13A559524799ED682C71FE0B1CE5D /* libffi-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libffi-iOS-dummy.m"; sourceTree = "<group>"; };
 		D58739ED1A12BDA13D8F62B9EBDE1C8A /* raw_api.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = raw_api.c; path = darwin_common/src/raw_api.c; sourceTree = "<group>"; };
 		DC08DD9399119A96757C348867399EF4 /* libffi-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libffi-iOS-prefix.pch"; sourceTree = "<group>"; };
-		E1E7AFCC1CE9EF1FDF4E2385EC47BD09 /* Pods-App29CMTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-App29CMTests-Info.plist"; sourceTree = "<group>"; };
 		E2E5F819BDA232E9D45316DA969A6A84 /* libffi-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "libffi-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		E4C6701B8247F4D5EF0E1BB1439D5FA8 /* ffiw64_x86_64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ffiw64_x86_64.c; path = darwin_ios/src/x86/ffiw64_x86_64.c; sourceTree = "<group>"; };
 		ED6790FD01E4E7F0662CEC535EB5A9CD /* debug.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = debug.c; path = darwin_common/src/debug.c; sourceTree = "<group>"; };
 		EEC6BC34DBEE6A562537FF4A651549BE /* ffi_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_i386.h; path = darwin_ios/include/ffi_i386.h; sourceTree = "<group>"; };
-		F87954BDA8C66456635E0C79BBFD3969 /* Pods-App_NotificationService-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-App_NotificationService-acknowledgements.plist"; sourceTree = "<group>"; };
 		F965330A43F803E5B31ECDAC89BE78B0 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_x86_64.h; path = darwin_ios/include/ffitarget_x86_64.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -229,24 +203,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B29911BF75B24B2F7F9FF849E26A4BAE /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EA5437617E603621AF9E0DD9B32E7697 /* Pods-App29CM */,
-				D8E318A7CF14C6DBF3992CFBF139D934 /* Pods-App29CMTests */,
-				F5274353E72AA3E2388EC0C1CDAC9B14 /* Pods-App_NotificationService */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				61089E07638EAB69287505F1366E5538 /* Pods */,
 				23B12B3076DA884D4B6FD84F67C66E11 /* Products */,
-				B29911BF75B24B2F7F9FF849E26A4BAE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -256,55 +218,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D8E318A7CF14C6DBF3992CFBF139D934 /* Pods-App29CMTests */ = {
-			isa = PBXGroup;
-			children = (
-				A1AE7F10CD2227E81EB7E2A3ABA238B2 /* Pods-App29CMTests.modulemap */,
-				316B1D0CFA783C05B2D38A49B3DD7AA8 /* Pods-App29CMTests-acknowledgements.markdown */,
-				609BEADE37A8E4927CDF8BBCEF2ED4BA /* Pods-App29CMTests-acknowledgements.plist */,
-				C3B4A5A9B22A1AD3517931584C2D26E2 /* Pods-App29CMTests-dummy.m */,
-				E1E7AFCC1CE9EF1FDF4E2385EC47BD09 /* Pods-App29CMTests-Info.plist */,
-				374D90E834D40D58A4ABCE86A790F6D1 /* Pods-App29CMTests-umbrella.h */,
-				BAF4D37111EA0C79EBBD74CF24214114 /* Pods-App29CMTests.debug.xcconfig */,
-				2B97382D01976FD5FBF6DA4CB4DD4EF4 /* Pods-App29CMTests.release.xcconfig */,
-			);
-			name = "Pods-App29CMTests";
-			path = "Target Support Files/Pods-App29CMTests";
-			sourceTree = "<group>";
-		};
-		EA5437617E603621AF9E0DD9B32E7697 /* Pods-App29CM */ = {
-			isa = PBXGroup;
-			children = (
-				BAA67CF66E3BAB51F8D716BFC8636A17 /* Pods-App29CM.modulemap */,
-				2834C06B537AD785ACB48118A412726E /* Pods-App29CM-acknowledgements.markdown */,
-				669580B6FF0CA0B873DC9DEB4CDE18E3 /* Pods-App29CM-acknowledgements.plist */,
-				C197CB1F3A758B8EED7D268A581AA571 /* Pods-App29CM-dummy.m */,
-				94FE8AE2BBF3521FE9EC1E7B06F0D0D2 /* Pods-App29CM-frameworks.sh */,
-				4B228AE0EDF5D4F72E74FDAE8B3FC6A0 /* Pods-App29CM-Info.plist */,
-				9A3CA1B3E0448E19718E3A09B071DF74 /* Pods-App29CM-umbrella.h */,
-				7AA96466193F21E3B61F49837B7AF664 /* Pods-App29CM.debug.xcconfig */,
-				5B14E181E5122B9DA1CE59EDF1209F16 /* Pods-App29CM.release.xcconfig */,
-			);
-			name = "Pods-App29CM";
-			path = "Target Support Files/Pods-App29CM";
-			sourceTree = "<group>";
-		};
-		F5274353E72AA3E2388EC0C1CDAC9B14 /* Pods-App_NotificationService */ = {
-			isa = PBXGroup;
-			children = (
-				35E7A6CB6670DE0F285589CB5A5B54FC /* Pods-App_NotificationService.modulemap */,
-				7140B503A00C8C074B7F239005D6B9B8 /* Pods-App_NotificationService-acknowledgements.markdown */,
-				F87954BDA8C66456635E0C79BBFD3969 /* Pods-App_NotificationService-acknowledgements.plist */,
-				7F27404B26319A37B8F32F8D3ABDDA72 /* Pods-App_NotificationService-dummy.m */,
-				03E177569C60FB5BB3C0FFA520374D91 /* Pods-App_NotificationService-Info.plist */,
-				92C8D7F63FD3581B6B640BFFD0E3106F /* Pods-App_NotificationService-umbrella.h */,
-				A8381540D54285DADDDDC8DCD451C50A /* Pods-App_NotificationService.debug.xcconfig */,
-				936298DA266F277ED564CF27D064F99A /* Pods-App_NotificationService.release.xcconfig */,
-			);
-			name = "Pods-App_NotificationService";
-			path = "Target Support Files/Pods-App_NotificationService";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,7 +283,7 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1500;
 			};
-			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "libffi" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -635,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "libffi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
